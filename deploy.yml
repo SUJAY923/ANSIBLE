@@ -23,7 +23,7 @@
   vars:
     ansible_python_interpreter: /usr/bin/python3.10
     keypair: Mumbai
-    instance_type: t2.micro
+    instance_type: t2.medium
     image_id: ami-0f5ee92e2d63afc18
     wait: yes
     group: webserver
